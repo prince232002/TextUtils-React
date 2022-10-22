@@ -1,0 +1,8 @@
+literal:
+-> ${} Template Literal in ES6 provides new features to create a string that gives more control over dynamic strings. Traditionally, String is created using single quotes (‘) or double quotes (“) quotes. Template literal is created using the backtick (`) character.
+syntax :  var s=`some string`;
+
+Expressions: To dynamically add values into new Template Literals expressions are used. 
+The ${} syntax allows an expression in it that produces the value. This value can be a 
+string stored in a variable or a computation operation.
+syntax :  ${expression}

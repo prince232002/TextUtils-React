@@ -1,0 +1,8 @@
+starting react  app
+npm start run on terminal 
+
+use this for fast running of react  app
+-> npm run build
+
+NOTE: 
+node_modules : we not send to server as we can create it whenever we need it

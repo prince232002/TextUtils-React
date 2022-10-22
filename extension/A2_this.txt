@@ -1,0 +1,11 @@
+this keyword:
+-> When used inside function its  value is undefined 
+-> when used inside arrow function its value is window object 
+settimeOut->  for printing after few second  but code after it will run as usual
+settimeOut(())=> {
+    console.log("fsfs")
+    },3000);
+}
+
+strictmode : for bug related problem like after defining strict mode we have  declare 
+variable before we use it 

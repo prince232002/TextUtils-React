@@ -1,0 +1,16 @@
+importing module1.mjs and module2.mjs
+
+Props-
+these are arguments passed into React components.
+they are passed to components via HTML attributes.
+(here in Navbar.js passed from App.js)
+
+Proptypes : it is the type we define for our props if our props argument is not of the type 
+then it will produce some error on console of js
+defaultProps : it is props argument if we do not pass any argument
+isRequired : we use it when passing argument is neccessary like title_name
+(you can see syntax in the Navbar.js end code )
+
+Hooks - allows you to use feature of class without declaring class
+Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+useState : it is a hook allows one to declare a state variable inside a function. It should be noted that one use of useState() can only be used to declare one state variable. 

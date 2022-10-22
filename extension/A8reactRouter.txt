@@ -1,0 +1,9 @@
+# reactRouter DOM : it enables you to only change some section of requested item 
+not completely load the entire site 
+
+->we use switch then inside route tag which store path of section 
+Also we use exact path for proper match of the section we request   
+we also give the link and to (in place of a and href ) inside that Navbar-item
+section of Navbar 
+(eg:  <Link className="nav-link" to="/about">)
+we also import link in the app.js 

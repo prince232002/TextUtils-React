@@ -1,0 +1,11 @@
+we use alert for our textUtil alert.js
+In const(alert, setalert ) = useState(null);
+setAlert is function we can pass argument in it  
+showAlert is function  (message, type) 
+-> then we use setTimeout to hide alert after sometime may be 2 seconds
+
+-> you can use favicon to logo your url tab 
+-> you can also show any message on your url tab of browser
+like when you toggle dark mode then message 'Enabled darkmode' we have did 
+this in the toggle section of darkmode and you can also define setInterval for
+it like in every 2 sec it will blink  

@@ -1,0 +1,17 @@
+#In multipage app each time :
+when client request to server  :
+client request cwh.com ---> server then server send html,css,js-->client
+(or client request home section on cwh.com)
+
+#But in case of singlePage App :
+when client request to server  :
+client request cwh.com ---> server then server send html,css,js-->client
+then this same html+css+js uses each time note reloading of full page occur
+only required info will change 
+(means only some section of page change rest will remains same.
+this will reduce server load and increase speed 
+so if before 100kb was sent  to client from server then now only 10kb will require)
+
+#We can use bootstrap including cdn links from bootstrap docs
+copy paste navbar of bootstrap docs 
+if errors show then end the tags with slash(/) if not 
